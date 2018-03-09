@@ -1,0 +1,146 @@
+/* #2 #colorful #palette is:
+    * Background: #F5F5F5 (GREY 100)
+    * Primary Text: black
+    * Primary color: #3F51B5 (INDIGO)
+    * Primary color_text : white
+    * Accent color: #CDDC39 (LIME)
+    * Accent color_text: black
+*/
+
+/*=======================================*/
+/*--------------- Globals ---------------*/
+/*=======================================*/
+
+* {
+    /* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+
+    /* This will help getting rid of UGLY Spacing */
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+/* Lets make those buttons and W3W links Uppercase */
+button, strong {
+    text-transform: uppercase;
+}
+
+
+
+/*=======================================*/
+/*--------------- Appbar ---------------*/
+/*======================================*/
+
+h1 {
+    /* ---------- Styling Both Appbars ---------- */
+    background-color: #3F51B5;
+    color: white;
+}
+
+
+/*==============================================*/
+/*--------------- Channels list ---------------*/
+/*==============================================*/
+
+ul {
+    background-color: #ffffff;
+    list-style-type: none;
+}
+
+li {
+    padding: 16px;
+    font-size: 16px;
+    height: 50px;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+li img {
+vertical-align: middle;
+}
+
+ul li.selected {
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+
+/*========================================*/
+/*--------------- Tab bar ---------------*/
+/*========================================*/
+
+#tab-bar {
+    background-color: #ffffff;
+}
+
+#tab-bar button {
+    background-color: #ffffff;
+    border: none;
+    font-size: 13px;
+    width:33%;
+    height: 72px;
+    padding: 16px;
+}
+
+/*===========================================================*/
+/* This will Make the Button Icon to LineBreak and Centered  */
+/*===========================================================*/
+
+#tab-bar button img {
+    display: block;
+    margin: auto;
+    padding-bottom: 4px;
+}
+
+#tab-bar button.selected {
+    border-bottom: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+
+/*========================================*/
+/*--------------- Messages ---------------*/
+/*========================================*/
+
+.message {
+    width:80%; 
+    margin-bottom: 8px;
+    margin-left: 2.5%;
+}
+
+p {  
+    background-color:#ffffff;
+    padding: 16px;
+}
+
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
+
+button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    text-align: center;
+}
+
+/* Changing Link Color to Primary Text Color i.e. Black */
+.message h3 a {
+    color: black;
+}
+
+.moveright {
+    margin-left: 17.5%;
+}
